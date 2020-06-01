@@ -10,4 +10,13 @@ Inside jupyter notebooks folder we have 3 Notebook files:
 
 Results :
 1.We got 99.84% Accuracy on Validation Dataset
+
 2.We Got 96.63% Accuracy on Test Dataset
+
+Results are inside result_csv folder Where we have 4 Files
+
+1. True_Prediction.csv : Correctly predicted Licence Numbers
+2. test_df_idf.csv : Unseen testing Data Seperated from the Training Data contains 131 images location
+3. distorted_images.csv : Because of poor Quality of Images . Character Segmentation cannot work on Blurred images
+4.total_prediction: Unseen testing Data Seperated from the Training Data Prediction results
+
